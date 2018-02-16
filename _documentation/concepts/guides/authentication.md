@@ -23,6 +23,7 @@ In this document you can learn about authentication via the following means:
   * [Request Body](#request-body)
   * [Query String](#query-string)
   * [Header-based](#header-based-api-key-secret-authentication)
+  * [Secret Rotation](#secret-rotation)
 * [JSON Web Tokens (JWT)](#json-web-tokens-jwt)
 * [OAuth](#oauth)
 
@@ -68,6 +69,14 @@ Below is a list of resources providing details on how to encode base64 strings i
 * Python: [base64](https://docs.python.org/2/library/base64.html)
 * Ruby: [Base64](https://ruby-doc.org/stdlib-2.5.0/libdoc/base64/rdoc/Base64.html)
 * Swift: [Base64 Encode and Decode in Swift](http://iosdevelopertips.com/swift-code/base64-encode-decode-swift.html) from iOS Developer Tips
+
+### Secret Rotation
+
+One of the issues with API secrets is that if your secret is ever compromised, someone could use it to access your account and make requests as though they were you. Perhaps your company has a secret rotation policy that you need Due to this, Nexmo provides a credential management that allows you to create and delete API secrets on demand.
+
+Whether you want a new API secret due to your existing secret being leaked or to comply with your internal secret management process, Nexmo makes it easy via the [secret rotation API](/api/account/api-secret-management).
+
+Using the secret rotation API, you can have two secrets active at any time. This allows you to update your application to use a new secret whilst services that haven't been deployed yet will keep working. Once you've updated all of your services, delete the old secret and use the new one everywhere.
 
 ## JSON Web Tokens (JWT)
 
