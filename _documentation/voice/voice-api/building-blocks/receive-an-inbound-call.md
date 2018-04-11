@@ -23,6 +23,8 @@ In this building block you see how to:
 3. Link your Nexmo Number with your Nexmo Application.
 4. Test an inbound call.
 
+## Placeholder
+
 In the code snippets below you need to substitute the following
 variables for suitable values:
 
@@ -36,17 +38,16 @@ Key | Description
 ## Prerequisites
 
 - [Rent a virtual number](/account/guides/numbers#rent-virtual-numbers)
+- If you are working on a development machine you will need to make
+  sure your server can be accessed by Nexmo over the public
+  internet. During the development process you can use a tool such as
+  [Ngrok](https://ngrok.com) to do that. How to use Ngrok with nexmo
+  is explained in detail in [this blog
+  post](https://www.nexmo.com/blog/2017/07/04/local-development-nexmo-ngrok-tunnel-dr/).
 
 ```tabbed_content
 source: '_examples/voice/receive-an-inbound-call'
 ```
-
-If you are working on a development machine you will need to make sure
-your server can be accessed by Nexmo over the public internet. During
-the development process you can use a tool such as
-[Ngrok](https://ngrok.com) to do that. How to use Ngrok with nexmo is
-explained in detail in [this blog
-post](https://www.nexmo.com/blog/2017/07/04/local-development-nexmo-ngrok-tunnel-dr/).
 
 ```partial
 source: _partials/associate-an-application-to-your-webhook.md
