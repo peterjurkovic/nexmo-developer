@@ -18,10 +18,20 @@ resultys in a Text-To-Speech (TTS) message being played.
 
 In this building block you see how to:
 
-1. Create a server that responds to the Answer URL webhook.
+1. Implement a server that responds to the Answer URL webhook.
 2. Create a Nexmo Application which links to your server's webhook.
 3. Link your Nexmo Number with your Nexmo Application.
 4. Test an inbound call.
+
+In the code snippets below you need to substitute the following
+variables for suitable values:
+
+Key | Description
+------|-------------
+`YOUR_HOSTNAME` | The hostname of your server. For example it may be https://www.example.com
+`NEXMO_NUMBER` | The Nexmo Number you purchased to link to this Nexmo Application.
+`NEXMO_APPLICATION_ID` | The Nexmo Application Id for the Nexmo Application you create below.
+
 
 ## Prerequisites
 
@@ -44,4 +54,5 @@ source: _partials/associate-an-application-to-your-webhook.md
 
 ## Call your Nexmo Number
 
-Call your Nexmo Number and you will hear a Text-To-Speech (TTS) message.
+Call your Nexmo Number. After a few seconds your call will be answered
+and you will hear a Text-To-Speech (TTS) message.
