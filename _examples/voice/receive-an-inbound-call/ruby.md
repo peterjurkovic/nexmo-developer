@@ -14,7 +14,7 @@ config: voice.inbound.ruby
 
 ## Run your server
 
-Save this file and then run it:
+Save the previous code to a file called `app.rb` and then run it:
 
 ```
 $ ruby app.rb

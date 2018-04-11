@@ -14,8 +14,9 @@ config: voice.inbound.php
 
 ## Run your server
 
-Save this file and then run it:
+Save the previous code to a file called `index.php` and then run a local server:
 
 ```
 $ php -t . -S localhost:3000
 ```
+

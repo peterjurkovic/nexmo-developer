@@ -14,7 +14,7 @@ config: voice.inbound.node
 
 ## Run your server
 
-Save this file and then run it:
+Save the previous code to a file called `app.js` and then run it:
 
 ```
 $ node app.js
