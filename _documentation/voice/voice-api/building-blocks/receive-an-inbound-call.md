@@ -1,6 +1,6 @@
 ---
 title: Receive an Inbound Call
-navigation_weight: 2
+navigation_weight: 1
 ---
 
 # Receive an inbound call
@@ -14,7 +14,7 @@ answers the inbound call to the Nexmo Number associated with it.
 
 When the Answer URL webhook is invoked, an NCCO is returned that
 controls how the inbound call is processed. In this example the NCCO
-resultys in a Text-To-Speech (TTS) message being played.
+results in a text-to-speech message being played.
 
 In this building block you see how to:
 
@@ -23,10 +23,10 @@ In this building block you see how to:
 3. Link your Nexmo Number with your Nexmo Application.
 4. Test an inbound call.
 
-## Placeholder
+## Placeholder values
 
-In the code snippets below you need to substitute the following
-variables for suitable values:
+In the example code snippets you need to substitute the following
+variables with suitable values:
 
 Key | Description
 ------|-------------
@@ -37,13 +37,13 @@ Key | Description
 
 ## Prerequisites
 
-- [Rent a virtual number](/account/guides/numbers#rent-virtual-numbers)
-- If you are working on a development machine you will need to make
+- *[Rent a virtual number](/account/guides/numbers#rent-virtual-numbers)*
+- *If you are working on a development machine you will need to make
   sure your server can be accessed by Nexmo over the public
   internet. During the development process you can use a tool such as
   [Ngrok](https://ngrok.com) to do that. How to use Ngrok with nexmo
   is explained in detail in [this blog
-  post](https://www.nexmo.com/blog/2017/07/04/local-development-nexmo-ngrok-tunnel-dr/).
+  post](https://www.nexmo.com/blog/2017/07/04/local-development-nexmo-ngrok-tunnel-dr/).*
 
 ```tabbed_content
 source: '_examples/voice/receive-an-inbound-call'
@@ -56,4 +56,4 @@ source: _partials/associate-an-application-to-your-webhook.md
 ## Call your Nexmo Number
 
 Call your Nexmo Number. After a few seconds your call will be answered
-and you will hear a Text-To-Speech (TTS) message.
+and you will hear a text-to-speech message.

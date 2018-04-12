@@ -3,7 +3,7 @@ title: Node
 language: node
 ---
 
-## Implement a webhook
+## Implement a server
 
 ```code
 config: voice.inbound-connect.node
@@ -11,9 +11,8 @@ config: voice.inbound-connect.node
 
 ## Run your server
 
-Save this file to your computer and run it using the `node` command:
+Save this file as `app.js` and run it:
 
 ```
 $ node app.js
 ```
-
