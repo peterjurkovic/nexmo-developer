@@ -47,6 +47,12 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorUser'
+        '429':
+          description: "Request throttled"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorUser'
 x-groups:
   transaction:
     name: Transaction
