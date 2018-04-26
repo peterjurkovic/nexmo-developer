@@ -50,15 +50,13 @@ gem 'banzai', '~> 0.1.2'
 gem 'foundation-rails', '6.4.1.2'
 
 # Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser. Among Nokogiri's many features is the ability to search documents via XPath or CSS3 selectors.
-gem 'nokogiri', '1.8.1'
+gem 'nokogiri', '1.8.2'
 
 # Autoload dotenv in Rails.
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Ruby/ProgressBar is a text progress bar library for Ruby.
 gem 'ruby-progressbar', require: false
-
-gem 'rubocop', require: false
 
 # Ruby notifier for bugsnag.com
 gem 'bugsnag'
@@ -85,10 +83,10 @@ gem 'icalendar', require: false
 #
 # Development & staging environments may use a dependency from a repo:
 #
-# gem 'oas_parser', github: 'Nexmo/oas_parser', branch: 'oneof-properties'
+# gem 'oas_parser', github: 'Nexmo/oas_parser', branch: 'definition-path-methods'
 #
 # Otherwise use a published gem:
-gem 'oas_parser', '0.11.1'
+  gem 'oas_parser', '0.11.2'
 
 # Generate JSON strings from Ruby objects with flexible formatting options.
 gem 'neatjson'
@@ -137,6 +135,9 @@ gem 'bootsnap', require: false
 
 # Convenient diffing in ruby
 gem 'diffy', require: false
+
+# Automatic Ruby code style checking tool. Aims to enforce the community-driven Ruby Style Guide.
+gem 'rubocop'
 
 group :development, :test do
   gem 'awesome_print'
