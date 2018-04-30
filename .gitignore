@@ -21,3 +21,4 @@
 /node_modules
 /public/packs-test
 config/algolia.yml
+.DS_Store
