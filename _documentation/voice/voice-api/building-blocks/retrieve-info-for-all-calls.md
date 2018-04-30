@@ -1,0 +1,17 @@
+---
+title: Retrieve information for all calls
+---
+
+# Retrieve information for all calls
+
+A building block that shows how to retrieve information for all calls.
+
+## Example
+
+```tabbed_content
+source: '_examples/voice/retrieve-info-for-all-calls'
+```
+
+## Try it out
+
+Run the example code to retrieve information for all calls.
