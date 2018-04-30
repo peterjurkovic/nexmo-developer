@@ -1,5 +1,6 @@
 ---
 title: Download a recording
+navigation_weight: 3
 ---
 
 # Download a recording

@@ -1,5 +1,6 @@
 ---
 title: Connect an inbound call
+navigation_weight: 2
 ---
 
 # Connect an inbound call

@@ -1,5 +1,6 @@
 ---
 title: Record a message
+navigation_weight: 16
 ---
 
 # Record a message

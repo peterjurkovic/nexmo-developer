@@ -1,5 +1,6 @@
 ---
 title: Earmuff a call
+navigation_weight: 4
 ---
 
 # Earmuff a call

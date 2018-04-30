@@ -1,5 +1,6 @@
 ---
 title: Handle user input with DTMF
+navigation_weight: 5
 ---
 
 # Handle user input with DTMF
@@ -24,5 +25,5 @@ source: '_examples/voice/handle-user-input-with-dtmf'
 ## Try it out
 
 Call your Nexmo Number. When the call is answered you will hear
-a menu. Press `1` on the keypad and press the `#` key. You will then hear
+a menu. Press `1` on the keypad followed by the `#` key. You will then hear
 a text-to-speech message acknowledging your selected option.

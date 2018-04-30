@@ -1,5 +1,6 @@
 ---
 title: Mute a call
+navigation_weight: 8
 ---
 
 # Mute a call
